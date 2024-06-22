@@ -1,0 +1,53 @@
+---
+import { basics } from "@data";
+
+import Section from "@/components/Section.astro";
+
+import MailIcon from "@/icons/mail.astro";
+import PhoneIcon from "@/icons/phone.astro";
+---
+
+<Section>
+    <div class="container">
+        <div class="info">
+            <h1>{basics.name}</h1>
+            <h2>{basics.label}</h2>
+            <span>
+                {basics.location.address} - {basics.location.city}, {
+                    basics.location.region
+                }
+            </span>
+            <footer>
+                {
+                    basics.email && (
+                        <a
+                            href={`mailto:${basics.email}`}
+                            title={`Enviar un correo electrónico a ${basics.name} al correo ${basics.email}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <MailIcon />
+                        </a>
+                    )
+                }
+                {
+                    basics.phone && (
+                        <a
+                            href={`tel:${basics.phone}`}
+                            title={`Llamar por teléfono a ${basics.name} al número ${basics.phone}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <PhoneIcon />
+                        </a>
+                    )
+                }
+            </footer>
+        </div>
+        <figure>
+            <img src={basics.image} alt={basics.name} />
+        </figure>
+    </div>
+</Section>
+
+<style></style>
