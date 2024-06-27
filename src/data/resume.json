@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Cristhian Apaza",
+    "name": "Cristhian Apaza Arhuata",
     "label": "Full-Stack Developer",
     "image": "./profile.jpg",
     "email": "cristhian.cjaa@outlook.com",
     "phone": "+51974508218",
     "url": "https://cristhianapaza.com",
-    "summary": "A summary of John Doe…",
+    "summary": "+ 9 años de experiencia en el desarrollo de software corporativo a medida y soporte a sistemas externos con y sin código fuente, tengo la capacidad de adaptarme con facilidad a nuevos métodos de programación y aprendizaje de nuevos lenguajes, puedo trabajar en equipos o de manera individual.",
     "location": {
       "address": "Socabaya",
       "postalCode": "PE 04012",
@@ -16,9 +16,24 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
+        "network": "GitHub",
+        "username": "@el-babas",
+        "url": "https://github.com/el-babas"
+      },
+      {
+        "network": "GitLab",
+        "username": "@el-babas",
+        "url": "https://gitlab.com/el-babas"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "@cristhian-apaza",
+        "url": "https://www.linkedin.com/in/cristhian-apaza"
+      },
+      {
+        "network": "X",
+        "username": "@CristhianJos11",
+        "url": "https://twitter.com/CristhianJos11"
       }
     ]
   },

@@ -5,6 +5,18 @@ import Section from "@/components/Section.astro";
 
 import MailIcon from "@/icons/mail.astro";
 import PhoneIcon from "@/icons/phone.astro";
+import WorldMap from "@/icons/world-map.astro";
+import GitHub from "@/icons/git-hub.astro";
+import GitLab from "@/icons/git-lab.astro";
+import LinkedIn from "@/icons/linkedIn.astro";
+import X from "@/icons/x.astro";
+
+const socialIcons: Record<string, any> = {
+    GitHub,
+    GitLab,
+    LinkedIn,
+    X,
+};
 ---
 
 <Section>
@@ -13,9 +25,9 @@ import PhoneIcon from "@/icons/phone.astro";
             <h1>{basics.name}</h1>
             <h2>{basics.label}</h2>
             <span>
-                {basics.location.address} - {basics.location.city}, {
-                    basics.location.region
-                }
+                <WorldMap />
+                {basics.location.address} - {basics.location.city},
+                {basics.location.region}
             </span>
             <footer>
                 {
@@ -42,6 +54,22 @@ import PhoneIcon from "@/icons/phone.astro";
                         </a>
                     )
                 }
+                {
+                    basics.profiles.map(({ network, url }) => {
+                        const Icon = socialIcons[network];
+
+                        return (
+                            <a
+                                href={url}
+                                title={`Visitar el perfil de ${basics.name} en ${network}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Icon />
+                            </a>
+                        );
+                    })
+                }
             </footer>
         </div>
         <figure>
@@ -50,4 +78,100 @@ import PhoneIcon from "@/icons/phone.astro";
     </div>
 </Section>
 
-<style></style>
+<style>
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-right: 32px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    h2 {
+        color: #444;
+        font-weight: 500;
+        font-size: 1.1rem;
+        text-wrap: balance;
+    }
+
+    img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        width: 128px;
+        border-radius: 16px;
+    }
+
+    span {
+        color: #666;
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        font-size: 0.85rem;
+        letter-spacing: -0.05rem;
+    }
+
+    footer {
+        color: #555;
+        font-size: 0.65rem;
+        display: flex;
+        gap: 4px;
+        margin-top: 8px;
+    }
+
+    footer a {
+        color: #777;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #eee;
+        padding: 4px;
+        height: 32px;
+        width: 32px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+
+    footer a:hover {
+        background: #eee;
+        border: 1px solid #ddd;
+    }
+
+    @media (width <= 700px) {
+        .container {
+            flex-direction: column-reverse;
+        }
+
+        .info {
+            justify-content: center;
+            align-items: center;
+            padding-right: 0;
+            text-align: center;
+        }
+
+        figure {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h2 {
+            text-wrap: balance;
+        }
+
+        figure {
+            margin: 0 auto;
+        }
+    }
+</style>
