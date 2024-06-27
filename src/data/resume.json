@@ -39,14 +39,44 @@
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "name": "Autrisa Automotriz Andina",
+      "position": "Analista Programador",
+      "url": "https://www.autrisa.com/",
+      "startDate": "2019-01-01",
+      "endDate": "",
+      "summary": [
+        "Cree, desarrolle e implemente el sistema de cálculo de comisiones e incentivos de jefaturas, personal del área de ventas y mecánicos, bajo las políticas de la empresa, reduciendo el trabajo de cálculo de planillas en un 50 %.",
+        "Genere comunicaciones mediante WebService y APIs, tanto de consulta y entrada con sistemas externos como GDS (Volvo) y SAP (Bussiness One), para automatizar procesos.",
+        "Automatice procesos de la empresa como pedidos de repuestos a almacén, envió de comunicaciones masivas, agendamiento de citas para taller, hojas de inspecciones técnicas y control de asistencia reduciendo el esfuerzo del personal y centralizando la información."
+      ],
       "highlights": [
-        "Started the company"
+        "JavaScript",
+        "TypeScript",
+        "C#",
+        "Python",
+        "MySql",
+        "Sql Server",
+        "AWS"
+      ]
+    },
+    {
+      "name": "Soluciones de Información NextSoft",
+      "position": "Software Developer",
+      "url": "https://www.nextsoft.com.pe/",
+      "startDate": "2015-01-01",
+      "endDate": "2018-12-31",
+      "summary": [
+        "Desarrolle e implemente el sistema de facturación electrónica llamada NextSisFE tanto en plataforma web como escritorio, haciendo posible que la empresa se convierta en un PSE (Proveedor de Servicios Electrónicos) de SUNAT.",
+        "Realice mantenimientos y mejoras continuas a software de terceros involucrados con logística de contenedores y almacenes financieros a empresas como DELFIN GROUP y ALMAFIN.",
+        "Participe del desarrollo y actualizaciones del sistema ERP propio de la empresa llamada NextSis, en los módulos de Ventas, Logística, Contabilidad y Recursos Humanos."
+      ],
+      "highlights": [
+        "C#",
+        "Visual Basic",
+        "JavaScript",
+        "Kotlin",
+        "Sql Server",
+        "Azure"
       ]
     }
   ],

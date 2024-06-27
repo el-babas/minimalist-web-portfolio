@@ -16,8 +16,8 @@ import Skills from "@/components/sections/Skills.astro";
 		<About />
 		<Experience />
 		<Education />
-		<Projects />
 		<Skills />
+		<Projects />
 	</main>
 	<KeyboarManager />
 </Layout>
@@ -27,5 +27,11 @@ import Skills from "@/components/sections/Skills.astro";
 		padding: 4rem;
 		margin: auto;
 		width: 100%;
+	}
+
+	@media (width <= 700px) {
+		main {
+			padding: 2rem;
+		}
 	}
 </style>
