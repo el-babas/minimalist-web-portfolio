@@ -95,15 +95,46 @@
   ],
   "education": [
     {
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
+      "institution": "Universidad Católica San Pablo",
+      "url": "https://postgrado.ucsp.edu.pe/",
+      "area": "Data Science",
+      "studyType": "Diplomatura",
+      "startDate": "2023-10-01",
+      "endDate": "2024-05-01",
+      "score": "10",
       "courses": [
-        "DB1101 - Basic SQL"
+        "Python",
+        "Aprendizaje Estadistico",
+        "Data Science y Big Data",
+        "Machine Learning y Deep Learning",
+        "Visualización de Datos"
+      ]
+    },
+    {
+      "institution": "Universidad Tecnológica del Perú",
+      "url": "https://www.utp.edu.pe/",
+      "area": "Administración de Empresas",
+      "studyType": "Bachiller",
+      "startDate": "2019-08-01",
+      "endDate": "2023-07-31",
+      "score": "10",
+      "courses": [
+        "Gestor en Temas Empresariales",
+        "Analista en gestión de empresas"
+      ]
+    },
+    {
+      "institution": "Instituto del Sur",
+      "url": "https://www.isur.edu.pe/",
+      "area": "Computación e Informática",
+      "studyType": "Técnico",
+      "startDate": "2012-08-01",
+      "endDate": "2015-07-31",
+      "score": "10",
+      "courses": [
+        "Progración Backend",
+        "Progración Frontend",
+        "Progración Movil"
       ]
     }
   ],
@@ -117,9 +148,9 @@
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
+      "name": "Full-Stack Software Engineer, Foundations of Computer Science",
+      "date": "2022-07-11",
+      "issuer": "Holberton School",
       "url": "https://certificate.com"
     }
   ],
