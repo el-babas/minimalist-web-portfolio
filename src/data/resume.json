@@ -148,9 +148,21 @@
   ],
   "certificates": [
     {
-      "name": "Full-Stack Software Engineer, Foundations of Computer Science",
+      "name": "Full-Stack Software Engineer",
       "date": "2022-07-11",
       "issuer": "Holberton School",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Power BI Avanzado",
+      "date": "2024-01-26",
+      "issuer": "New Horizons",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Power BI Básico e Intermedio",
+      "date": "2024-01-26",
+      "issuer": "New Horizons",
       "url": "https://certificate.com"
     }
   ],

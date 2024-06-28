@@ -5,17 +5,17 @@ import Section from "@/components/Section.astro";
 
 import MailIcon from "@/icons/mail.astro";
 import PhoneIcon from "@/icons/phone.astro";
-import WorldMap from "@/icons/world-map.astro";
-import GitHub from "@/icons/git-hub.astro";
-import GitLab from "@/icons/git-lab.astro";
-import LinkedIn from "@/icons/linkedIn.astro";
-import X from "@/icons/x.astro";
+import WorldMapIcon from "@/icons/world-map.astro";
+import GitHubIcon from "@/icons/git-hub.astro";
+import GitLabIcon from "@/icons/git-lab.astro";
+import LinkedInIcon from "@/icons/linkedIn.astro";
+import XIcon from "@/icons/x.astro";
 
 const socialIcons: Record<string, any> = {
-    GitHub,
-    GitLab,
-    LinkedIn,
-    X,
+    GitHub: GitHubIcon,
+    GitLab: GitLabIcon,
+    LinkedIn: LinkedInIcon,
+    X: XIcon,
 };
 ---
 
@@ -25,7 +25,7 @@ const socialIcons: Record<string, any> = {
             <h1>{basics.name}</h1>
             <h2>{basics.label}</h2>
             <span>
-                <WorldMap />
+                <WorldMapIcon />
                 {basics.location.address} - {basics.location.city},
                 {basics.location.region}
             </span>
