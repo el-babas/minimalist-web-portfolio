@@ -177,13 +177,84 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "name": "C Sharp",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Kotlin",
+      "level": "Junior",
+      "keywords": []
+    },
+    {
+      "name": "C",
+      "level": "Junior",
+      "keywords": []
+    },
+    {
+      "name": "SQL Server",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "MySql",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": ".NET",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "Node",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Next.js",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Android Studio",
+      "level": "Junior",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "AWS",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Ubuntu",
+      "level": "Intermediate",
+      "keywords": []
     }
   ],
   "languages": [
