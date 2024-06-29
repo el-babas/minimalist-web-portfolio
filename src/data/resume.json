@@ -157,13 +157,13 @@
       "name": "Power BI Avanzado",
       "date": "2024-01-26",
       "issuer": "New Horizons",
-      "url": "https://certificate.com"
+      "url": "./certificate-powe-bi-2.pdf"
     },
     {
       "name": "Power BI Básico e Intermedio",
       "date": "2024-01-26",
       "issuer": "New Horizons",
-      "url": "https://certificate.com"
+      "url": "./certificate-powe-bi-1.pdf"
     }
   ],
   "publications": [
@@ -222,7 +222,7 @@
       "keywords": []
     },
     {
-      "name": "Node",
+      "name": "Node.js",
       "level": "Expert",
       "keywords": []
     },
@@ -280,14 +280,96 @@
   ],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "Agendamiento de Citas",
+      "startDate": "2024-01-16",
+      "endDate": "2021-04-25",
+      "description": "Página Web exlusiva para que los clientes puedan agendar citas en el taller",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Node.js",
+        "MySql"
       ],
-      "url": "https://project.com/"
+      "versioning": "GitLab",
+      "repository": "",
+      "url": "https://citas.autrisa.com/"
+    },
+    {
+      "name": "PitStop",
+      "startDate": "2023-10-26",
+      "endDate": "2024-04-10",
+      "description": "Web App para gestionar las inspecciones preventivas de los camiones y hacer seguimiento a todas la citas agendadas",
+      "highlights": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Node.js",
+        "MySql"
+      ],
+      "versioning": "GitLab",
+      "repository": "",
+      "url": "https://pitstop.autrisa.com/"
+    },
+    {
+      "name": "P&P",
+      "startDate": "2024-04-09",
+      "endDate": "2024-05-24",
+      "description": "Web App para gestionar y digitalizar el proceso completo por el que pasa una vehiculo accidentado y/o siniestrado",
+      "highlights": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Node.js",
+        "MySql"
+      ],
+      "versioning": "GitLab",
+      "repository": "",
+      "url": "https://pyp.autrisa.com/"
+    },
+    {
+      "name": "EDA Salary Data",
+      "startDate": "2024-01-08",
+      "endDate": "2020-01-10",
+      "description": "Análisis de datos exploratorio simple sobre datos salariales en empresas tecnológicas gigantes",
+      "highlights": [
+        "Data Science",
+        "R",
+        "RStudio"
+      ],
+      "versioning": "GitLab",
+      "repository": "https://gitlab.com/el-babas/eda-salary-data/",
+      "url": ""
+    },
+    {
+      "name": "Venpy",
+      "startDate": "2019-08-21",
+      "endDate": "2020-01-31",
+      "description": "Desktop App de ventas para pequeñas y medianas empresas de código libre",
+      "highlights": [
+        "C#",
+        ".Net",
+        "SQL Server"
+      ],
+      "versioning": "GitHub",
+      "repository": "https://github.com/el-babas/VENPY/",
+      "url": ""
+    },
+    {
+      "name": "Project Management",
+      "startDate": "2022-07-08",
+      "endDate": "2022-12-14",
+      "description": "Web App que tiene como objetivo simplificar el seguimiento de las solicitudes de una empresa al departamento de TI",
+      "highlights": [
+        "Python",
+        "JavaScript",
+        "Flask",
+        "React",
+        "MySql"
+      ],
+      "versioning": "GitHub",
+      "repository": "https://github.com/el-babas/project-management/",
+      "url": ""
     }
   ]
 }

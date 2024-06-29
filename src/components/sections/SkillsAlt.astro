@@ -1,0 +1,85 @@
+---
+import { skills } from "@data";
+
+import Section from "@/components/Section.astro";
+
+import CodeIcon from "@/icons/code.astro";
+import CSharpIcon from "@/icons/csharp.astro";
+import PythonIcon from "@/icons/python.astro";
+import JavaScriptIcon from "@/icons/javascript.astro";
+import TypeScriptIcon from "@/icons/typescript.astro";
+import KotlinIcon from "@/icons/kotlin.astro";
+import SQLServerIcon from "@/icons/sql-server.astro";
+import MySqlIcon from "@/icons/mysql.astro";
+import CIcon from "@/icons/c.astro";
+import DotNetIcon from "@/icons/dotnet.astro";
+import NodeIcon from "@/icons/node.astro";
+import ReactIcon from "@/icons/react.astro";
+import NextIcon from "@/icons/next.astro";
+import AndroidStudioIcon from "@/icons/android-studio.astro";
+import GitIcon from "@/icons/git.astro";
+import AwsIcon from "@/icons/aws.astro";
+import UbuntuIcon from "@/icons/ubuntu.astro";
+
+const skillsIcons: Record<string, any> = {
+    ".NET": DotNetIcon,
+    "Next.js": NextIcon,
+    "C Sharp": CSharpIcon,
+    "SQL Server": SQLServerIcon,
+    "Android Studio": AndroidStudioIcon,
+    C: CIcon,
+    Git: GitIcon,
+    AWS: AwsIcon,
+    Node: NodeIcon,
+    React: ReactIcon,
+    MySql: MySqlIcon,
+    Python: PythonIcon,
+    Kotlin: KotlinIcon,
+    Ubuntu: UbuntuIcon,
+    JavaScript: JavaScriptIcon,
+    TypeScript: TypeScriptIcon,
+};
+---
+
+<Section title="Habilidades">
+    <div>
+        {
+            skills.map(({ name }) => {
+                const Icon = skillsIcons[name] ? skillsIcons[name] : CodeIcon;
+                return (
+                    <section>
+                        <Icon />
+                        <span>{name}</span>
+                    </section>
+                );
+            })
+        }
+    </div>
+</Section>
+
+<style>
+    div {
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        background: #cbd5e1;
+        border-radius: 6px;
+        color: #0f172a;
+        gap: 7px;
+        padding-left: 0.5rem;
+    }
+
+    span {
+        background: #0f172a;
+        border-radius: 6px;
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
+    }
+</style>
