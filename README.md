@@ -1,54 +1,110 @@
-# Astro Starter Kit: Basics
+<div align="center">
+    <img src="./public/favicon.svg" height="50px" width="auto" />
+    <h1>
+        Portafolio Minimalista Web
+    </h1>
+</div>
 
-```sh
-npm create astro@latest -- --template basics
-```
+<div align="center">
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
+![GitHub stars](https://img.shields.io/github/stars/el-babas/minimalist-web-portfolio)
+![GitHub forks](https://img.shields.io/github/forks/el-babas/minimalist-web-portfolio)
+![GitHub issues](https://img.shields.io/github/issues/el-babas/minimalist-web-portfolio)
+![GitHub PRs](https://img.shields.io/github/issues-pr/el-babas/minimalist-web-portfolio)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+</div>
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+<div align="center">
+    <a href="#🤝-menciones">
+        Menciones
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#🖥️-preview">
+        Preview
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#🛠️-herramientas">
+        Herramientas
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#😉-estructura-del-proyecto">
+        Estructura del Proyecto
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#🧑‍💻-comandos">
+        Comandos
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#🔑-licencia">
+        Licencia
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#🎭-autores">
+        Autores
+    </a>
+</div>
 
-## 🚀 Project Structure
+## 🤝 Menciones
+* Diseño basado en [**Bartosz Jarocki**](https://github.com/BartoszJarocki/cv)
+* Código de guia de [**Miguel Ángel Durán**](https://github.com/midudev/minimalist-portfolio-json)
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🖥️ Preview
+<img src="./public/preview-screenshot.png"></img>
+
+## 🛠️ Herramientas
+
+- [**Astro**](https://astro.build/) - Framework de aplicaciones web basado en JavaScript de código abierto.
+- [**Typescript**](https://www.typescriptlang.org/) - Lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft..
+- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript.
+
+## 😉 Estructura del Proyecto
+
+El proyecto tiene la siguiente estructura de carpetas y archivos:
 
 ```text
 /
 ├── public/
-│   └── favicon.svg
+│   ├── favicon.svg
+│   └── certificates-*.svg
 ├── src/
 │   ├── components/
-│   │   └── Card.astro
+│   │   ├── sections/
+│   │   └── components-*.astro
+│   ├── data/
+│   │   └── resume.json
+│   ├── icons/
+│   │   └── icons-svg-*.astro
 │   ├── layouts/
-│   │   └── Layout.astro
+│   │   └── layouts-*.astro
 │   └── pages/
 │       └── index.astro
-└── package.json
+├── package.json
+├── LICENSE.json
+└── README.json
 ```
+Cualquier archivo estático, como imágenes, se puede colocar en el directorio `public/`.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🧑‍💻 Comandos
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
+Todos los comandos se ejecutan desde la raíz del proyecto, desde una terminal:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm install`             | Instalar dependencias                            |
+| `npm run dev`             | Iniciar la apliación `localhost:4321`            |
+| `npm run build`           | Compilar la aplicación `./dist/`                 |
+| `npm run preview`         | Vista previa de compilación , antes de implementarla |
 
-## 👀 Want to learn more?
+## 🔑 Licencia
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+* [**MIT**: ](LICENSE.txt)Esta licencia permite a los usuarios utilizar, modificar y distribuir el software sin restricciones, siempre y cuando se proporcione atribución al autor original y se incluya un aviso de derechos de autor en todas las copias del software
+
+## 🎭 Autores
+* Cristhian Apáza - cristhian.cjaa@gmail.com
+[![LinkedIn][linkedin-shield]][linkedin-1-url]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-1-url]: https://www.linkedin.com/in/cristhian-apaza/

@@ -6,7 +6,7 @@
     "email": "cristhian.cjaa@outlook.com",
     "phone": "+51974508218",
     "url": "https://cristhianapaza.com",
-    "summary": "+ 9 años de experiencia en el desarrollo de software corporativo a medida y soporte a sistemas externos con y sin código fuente, tengo la capacidad de adaptarme con facilidad a nuevos métodos de programación y aprendizaje de nuevos lenguajes, puedo trabajar en equipos o de manera individual.",
+    "summary": "+ 9 años de experiencia en el desarrollo de software corporativo a medida y soporte a sistemas externos con y sin código fuente. Tengo la capacidad de adaptarme con facilidad a nuevos métodos de programación y aprendizaje de nuevos lenguajes. Tengo un buen desenvolvimiento laboral trabajando en equipo o de manera individual.",
     "location": {
       "address": "Socabaya",
       "postalCode": "PE 04012",
@@ -45,9 +45,9 @@
       "startDate": "2019-01-01",
       "endDate": "",
       "summary": [
-        "Cree, desarrolle e implemente el sistema de cálculo de comisiones e incentivos de jefaturas, personal del área de ventas y mecánicos, bajo las políticas de la empresa, reduciendo el trabajo de cálculo de planillas en un 50 %.",
-        "Genere comunicaciones mediante WebService y APIs, tanto de consulta y entrada con sistemas externos como GDS (Volvo) y SAP (Bussiness One), para automatizar procesos.",
-        "Automatice procesos de la empresa como pedidos de repuestos a almacén, envió de comunicaciones masivas, agendamiento de citas para taller, hojas de inspecciones técnicas y control de asistencia reduciendo el esfuerzo del personal y centralizando la información."
+        "Creé, desarrollé e implementé el sistema de cálculo de comisiones e incentivos de jefaturas, personal del área de ventas y mecánicos. Esto bajo las políticas de la empresa, reduciendo así el trabajo de cálculo de planillas en un 50 %.",
+        "Generé comunicaciones mediante WebService y APIs, tanto de consulta y entrada con sistemas externos como GDS (Volvo) y SAP (Bussiness One), para automatizar procesos.",
+        "Automaticé procesos de la empresa como pedidos de repuestos a almacén, envío de comunicaciones masivas, agendamiento de citas para taller, hojas de inspecciones técnicas y control de asistencia reduciendo el esfuerzo del personal y centralizando la información."
       ],
       "highlights": [
         "JavaScript",
@@ -66,9 +66,9 @@
       "startDate": "2015-01-01",
       "endDate": "2018-12-31",
       "summary": [
-        "Desarrolle e implemente el sistema de facturación electrónica llamada NextSisFE tanto en plataforma web como escritorio, haciendo posible que la empresa se convierta en un PSE (Proveedor de Servicios Electrónicos) de SUNAT.",
-        "Realice mantenimientos y mejoras continuas a software de terceros involucrados con logística de contenedores y almacenes financieros a empresas como DELFIN GROUP y ALMAFIN.",
-        "Participe del desarrollo y actualizaciones del sistema ERP propio de la empresa llamada NextSis, en los módulos de Ventas, Logística, Contabilidad y Recursos Humanos."
+        "Desarrollé e implementé el sistema de facturación electrónica llamada NextSisFE tanto en plataforma web como escritorio, haciendo posible que la empresa se convierta en un PSE (Proveedor de Servicios Electrónicos) de SUNAT.",
+        "Realicé mantenimientos y mejoras continuas a software de terceros involucrados con logística de contenedores y almacenes financieros a empresas como DELFIN GROUP y ALMAFIN.",
+        "Participé del desarrollo y actualizaciones del sistema ERP propio de la empresa llamada NextSis, en los módulos de Ventas, Logística, Contabilidad y Recursos Humanos."
       ],
       "highlights": [
         "C#",
@@ -315,7 +315,7 @@
       "name": "P&P",
       "startDate": "2024-04-09",
       "endDate": "2024-05-24",
-      "description": "Web App para gestionar y digitalizar el proceso completo por el que pasa una vehiculo accidentado y/o siniestrado",
+      "description": "Web App para gestionar y digitalizar el proceso completo por el que pasa una vehículo accidentado y/o siniestrado",
       "highlights": [
         "TypeScript",
         "Next.js",
