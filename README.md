@@ -16,49 +16,50 @@
 </div>
 
 <div align="center">
-    <a href="#🤝-menciones">
+    <a href="#menciones">
         Menciones
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#🖥️-preview">
+    <a href="#preview">
         Preview
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#🛠️-herramientas">
+    <a href="#herramientas">
         Herramientas
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#😉-estructura-del-proyecto">
+    <a href="#estructura-del-proyecto">
         Estructura del Proyecto
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#🧑‍💻-comandos">
+    <a href="#comandos">
         Comandos
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#🔑-licencia">
+    <a href="#licencia">
         Licencia
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#🎭-autores">
+    <a href="#autores">
         Autores
     </a>
 </div>
 
-## 🤝 Menciones
+## Menciones
 * Diseño basado en [**Bartosz Jarocki**](https://github.com/BartoszJarocki/cv)
 * Código de guia de [**Miguel Ángel Durán**](https://github.com/midudev/minimalist-portfolio-json)
 
-## 🖥️ Preview
+## Preview
 <img src="./public/preview-screenshot.png"></img>
 
-## 🛠️ Herramientas
+## Herramientas
 
 - [**Astro**](https://astro.build/) - Framework de aplicaciones web basado en JavaScript de código abierto.
 - [**Typescript**](https://www.typescriptlang.org/) - Lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft..
 - [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript.
+- [**JSON Resume**](https://jsonresume.org/schema/) - La iniciativa de código abierto para crear un estándar basado en JSON para currículums. Para desarrolladores, por desarrolladores.
 
-## 😉 Estructura del Proyecto
+## Estructura del Proyecto
 
 El proyecto tiene la siguiente estructura de carpetas y archivos:
 
@@ -85,7 +86,7 @@ El proyecto tiene la siguiente estructura de carpetas y archivos:
 ```
 Cualquier archivo estático, como imágenes, se puede colocar en el directorio `public/`.
 
-## 🧑‍💻 Comandos
+## Comandos
 
 Todos los comandos se ejecutan desde la raíz del proyecto, desde una terminal:
 
@@ -96,11 +97,11 @@ Todos los comandos se ejecutan desde la raíz del proyecto, desde una terminal:
 | `npm run build`           | Compilar la aplicación `./dist/`                 |
 | `npm run preview`         | Vista previa de compilación , antes de implementarla |
 
-## 🔑 Licencia
+## Licencia
 
 * [**MIT**: ](LICENSE.txt)Esta licencia permite a los usuarios utilizar, modificar y distribuir el software sin restricciones, siempre y cuando se proporcione atribución al autor original y se incluya un aviso de derechos de autor en todas las copias del software
 
-## 🎭 Autores
+## Autores
 * Cristhian Apáza - cristhian.cjaa@gmail.com
 [![LinkedIn][linkedin-shield]][linkedin-1-url]
 
