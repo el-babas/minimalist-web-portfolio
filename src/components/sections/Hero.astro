@@ -29,7 +29,14 @@ const socialIcons: Record<string, any> = {
                 {basics.location.address} - {basics.location.city},
                 {basics.location.region}
             </span>
-            <footer>
+            <footer class="print">
+                <ul>
+                    <li>{basics.url}</li>
+                    <li>{basics.email}</li>
+                    <li>{basics.phone}</li>
+                </ul>
+            </footer>
+            <footer class="no-print">
                 {
                     basics.email && (
                         <a
@@ -128,6 +135,10 @@ const socialIcons: Record<string, any> = {
         display: flex;
         gap: 4px;
         margin-top: 8px;
+    }
+
+    footer ul {
+        text-decoration: underline;
     }
 
     footer a {

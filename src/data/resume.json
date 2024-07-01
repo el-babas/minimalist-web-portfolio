@@ -342,20 +342,6 @@
       "url": ""
     },
     {
-      "name": "Venpy",
-      "startDate": "2019-08-21",
-      "endDate": "2020-01-31",
-      "description": "Desktop App de ventas para pequeñas y medianas empresas de código libre",
-      "highlights": [
-        "C#",
-        ".Net",
-        "SQL Server"
-      ],
-      "versioning": "GitHub",
-      "repository": "https://github.com/el-babas/VENPY/",
-      "url": ""
-    },
-    {
       "name": "Project Management",
       "startDate": "2022-07-08",
       "endDate": "2022-12-14",
@@ -369,6 +355,20 @@
       ],
       "versioning": "GitHub",
       "repository": "https://github.com/el-babas/project-management/",
+      "url": ""
+    },
+    {
+      "name": "Venpy",
+      "startDate": "2019-08-21",
+      "endDate": "2020-01-31",
+      "description": "Desktop App de ventas para pequeñas y medianas empresas de código libre",
+      "highlights": [
+        "C#",
+        ".Net",
+        "SQL Server"
+      ],
+      "versioning": "GitHub",
+      "repository": "https://github.com/el-babas/VENPY/",
       "url": ""
     }
   ]
