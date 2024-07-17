@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./public/favicon.svg" height="100" width="auto" />
+    <img src="./public/logo.png" height="100" width="auto" />
     <h1>
         PORTAFOLIO MINIMALISTA WEB
     </h1>
