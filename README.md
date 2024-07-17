@@ -1,7 +1,7 @@
 <div align="center">
-    <img src="./public/favicon.svg" height="50px" width="auto" />
+    <img src="./public/favicon.svg" height="100" width="auto" />
     <h1>
-        Portafolio Minimalista Web
+        PORTAFOLIO MINIMALISTA WEB
     </h1>
 </div>
 
@@ -45,26 +45,26 @@
     </a>
 </div>
 
-## Menciones
+# Menciones
 * Diseño basado en [**Bartosz Jarocki**](https://github.com/BartoszJarocki/cv)
 * Código de guia de [**Miguel Ángel Durán**](https://github.com/midudev/minimalist-portfolio-json)
 
-## Preview
+# Preview
 <img src="./public/preview-screenshot.png"></img>
 
-## Herramientas
+# Herramientas
 
 - [**Astro**](https://astro.build/) - Framework de aplicaciones web basado en JavaScript de código abierto.
 - [**Typescript**](https://www.typescriptlang.org/) - Lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft..
 - [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript.
 - [**JSON Resume**](https://jsonresume.org/schema/) - La iniciativa de código abierto para crear un estándar basado en JSON para currículums. Para desarrolladores, por desarrolladores.
 
-## Estructura del Proyecto
+# Estructura del Proyecto
 
 El proyecto tiene la siguiente estructura de carpetas y archivos:
 
 ```text
-/
+
 ├── public/
 │   ├── favicon.svg
 │   └── certificates-*.svg
@@ -83,10 +83,11 @@ El proyecto tiene la siguiente estructura de carpetas y archivos:
 ├── package.json
 ├── LICENSE.json
 └── README.json
+
 ```
 Cualquier archivo estático, como imágenes, se puede colocar en el directorio `public/`.
 
-## Comandos
+# Comandos
 
 Todos los comandos se ejecutan desde la raíz del proyecto, desde una terminal:
 
@@ -97,15 +98,15 @@ Todos los comandos se ejecutan desde la raíz del proyecto, desde una terminal:
 | `npm run build`           | Compilar la aplicación `./dist/`                 |
 | `npm run preview`         | Vista previa de compilación , antes de implementarla |
 
-## Licencia
+# Licencia
 
 * [**MIT**: ](LICENSE.txt)Esta licencia permite a los usuarios utilizar, modificar y distribuir el software sin restricciones, siempre y cuando se proporcione atribución al autor original y se incluya un aviso de derechos de autor en todas las copias del software
 
-## Autores
+# Autores
 * Cristhian Apáza - cristhian.cjaa@gmail.com
 [![LinkedIn][linkedin-shield]][linkedin-1-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white
 [linkedin-1-url]: https://www.linkedin.com/in/cristhian-apaza/
